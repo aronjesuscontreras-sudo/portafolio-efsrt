@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio del Equipo - SOFT-EFSRT</title>
+    <script src="https://tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans">
+
+    <!-- ENCABEZADO CON ENLACE AL LOGIN DE TU COMPAÑERO -->
+    <header class="bg-blue-900 text-white shadow-md">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold tracking-wide">SOFT-EFSRT</h1>
+            <nav class="flex items-center gap-6">
+                <a href="#alcance-sistema" class="text-sm text-blue-200 hover:text-white transition">Alcance</a>
+                <a href="#desarrolladores" class="text-sm text-blue-200 hover:text-white transition">Equipo</a>
+                <a href="login.html" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium px-4 py-2 rounded-lg transition">
+                    Iniciar Sesión
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="max-w-6xl mx-auto px-6 py-10 space-y-12">
+
+        <!-- SECCIÓN: ALCANCE DEL SISTEMA -->
+        <section id="alcance-sistema" class="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+            <h2 class="text-2xl font-bold text-blue-900 mb-4">Alcance del Sistema SOFT-EFSRT</h2>
+            <p class="text-slate-600 leading-relaxed">
+                El sistema <strong>SOFT-EFSRT</strong> está diseñado para optimizar la gestión, seguimiento y control 
+                de las Experiencias Formativas en Situaciones Reales de Trabajo. Permite centralizar la documentación 
+                académica, validar horas prácticas y facilitar la comunicación entre estudiantes y docentes supervisores.
+            </p>
+        </section>
+
+                <!-- SECCIÓN: PRESENTACIÓN DE DESARROLLADORES (3 INTEGRANTES) -->
+        <section id="desarrolladores" class="space-y-6">
+            <h2 class="text-2xl font-bold text-blue-900">Equipo de Desarrollo</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <!-- Tarjeta Integrante 1 (Tú) -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block bg-blue-100 text-blue-800 text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                            Frontend & Estructura
+                        </span>
+                        <h3 class="text-xl font-bold text-slate-900">Tu Nombre Completo</h3>
+                        <p class="text-slate-600 text-sm mt-2">
+                            Encargado del diseño de interfaces, maquetación web y estructura principal del portafolio.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+                        GitHub: @tu-usuario
+                    </div>
+                </div>
+
+                <!-- Tarjeta Integrante 2 (Compañero del Login) -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block bg-emerald-100 text-emerald-800 text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                            Módulo de Autenticación
+                        </span>
+                        <h3 class="text-xl font-bold text-slate-900">Nombre Compañero 2</h3>
+                        <p class="text-slate-600 text-sm mt-2">
+                            Encargado de la creación del repositorio, gestión de ramas y desarrollo del módulo de Login.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+                        GitHub: @aronjesuscontreras-sudo
+                    </div>
+                </div>
+
+                <!-- Tarjeta Integrante 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block bg-purple-100 text-purple-800 text-xs font-semibold px-3 py-1 rounded-full mb-3">
+                            Lógica & Documentación
+                        </span>
+                        <h3 class="text-xl font-bold text-slate-900">Nombre Compañero 3</h3>
+                        <p class="text-slate-600 text-sm mt-2">
+                            Encargado de la validación de datos, soporte funcional y documentación del sistema SOFT-EFSRT.
+                        </p>
+                    </div>
+                    <div class="mt-4 pt-4 border-t border-slate-100 text-xs text-slate-500">
+                        GitHub: @usuario-companero-3
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-6 text-slate-500 text-sm">
+        &copy; 2026 Equipo de Desarrollo SOFT-EFSRT
+    </footer>
+
+</body>
+</html>
